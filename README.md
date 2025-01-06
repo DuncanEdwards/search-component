@@ -117,10 +117,10 @@ Unfortunately new requirements have arrived from the business. They need to be a
 
 <img src="image-5.png" alt="drawing" width="100"/>
 
-So how do we do this to our filter bar? Well there are 2 ways but there is only one that will survive a code review. If you feel like
+So how do we do this to our filter bar compoonent? Well there are 2 ways but there is only one that will survive a code review. If you feel like
 some extra credit (100 points for Gryffindor) you can give this way a go:
 
-1. Create a `useRef` inside the `BooksPage` pass it to the `FilterBar` using the `forwardRef` function and use the `useImperativeHandle` hook to implement a `clear` method. Good luck!
+1. Create a `useRef` inside the `BooksPage` pass it to the `FilterBar` using the `forwardRef` function and use the `useImperativeHandle` hook to implement a `clear` method. Good luck! (OPTIONAL - you'll learn lots, but I will be covering `useRef` later so you can skip this dance)
 
 2. Anyway, the more "proper" React way to provide `Clear` function from outside out `FilterBar` is to make `FilterBar` a controlled props component, where the state is 100% controlled from outside the component.
 
