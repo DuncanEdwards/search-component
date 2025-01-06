@@ -135,7 +135,7 @@ type FilterBarProps = {
 };
 ```
 
-Your job is to create a component called `FilterBar` that has its state controlled from outside of it (with the above props). For the `BooksPage` itself, instead of calling `getBooks` from the `onFilterChanged` method, you should use `useEffect` to make the `getBooks` call _depend_ on the value of `selectedFilters` that you are now storing in the page.
+Your job is to create a new `FilterBar` component that has its state controlled from outside of it (with the above props). For the `BooksPage` itself, instead of calling `getBooks` from the `onFilterChanged` method, you should use `useEffect` to make the `getBooks` call _depend_ on the value of `selectedFilters` that you are now storing in the page.
 
 The final thing is to create a "Clear All" button as part of the `BooksPage` that you can use to clear the selected filters. How easy was that?!?
 
