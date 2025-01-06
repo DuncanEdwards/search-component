@@ -89,16 +89,16 @@ This filter bar component is kind of nice and generic. You can pass anything as 
 
 > This example stems from a situation I encountered with a marketing website that was mainly a portal for a bunch of articles:
 > ![alt text](image-3.png)
-> The filter bar component was poorly written and cut + paste duplicated all across the website. Having a super-reusable, super-stable version of the component resuable across the whole website became really useful, cutting down massively on total cot of ownership:
+> The filter bar component was poorly written and cut + paste duplicated all across the website. Having a super-reusable, super-stable version of the component resuable across the whole website became really useful, cutting down massively on total cost of ownership:
 > ![alt text](image-4.png)
 
 `CHECKPOINT #2` - Once you have tested the `FilterBar` to the best of your ability please send the results to Duncan and it will almost certainly be time for a little at chat.
 
 4. Now it is time to build the `ItemsGrid` component that will display the books in (you guessed it) a grid. Obviously I would expect that you'd create 2-3 components to do this (I created `ItemsGrid`, `ItemTile`, `ItemTags`). Give the components generic non-book specific names with the idea that they could be used for other things... I recommend not bothering to tests these components, maybe they'll just get covered by the testing we do on the parent page?
 
-5. Not it is time to build the `BooksPage` to wire it all together.
+5. Now it is time to build the `BooksPage` to wire it all together.
 
-Implementation Tips\
+Implementation Tips
 
 - Load the genres async first using `useEffect`
 - When you have genres, render the `FilterBar` component with the genres and use the `onFilterChanged` callback to call `getBooks`.
