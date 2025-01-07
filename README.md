@@ -44,6 +44,10 @@ type FilterBarProps = {
 
 Note that `FilterBar` should be implemented with the "uncontrolled props" pattern. This means that the filter bar keeps track of it's own selected filters state but this means that it can't be passed default selections or have its selection settings modified from outside of the component (well it can with great effort by using `forwardRef` and `useImperativeHandle` - https://react.dev/reference/react/useImperativeHandle). For now, lets use uncontrolled and later on we can wok out _how_ to turn it into a controlled and _why_ we would want to do that.
 
+I used the material UI:
+`FormControlLabel` and `CheckBox` (https://mui.com/material-ui/react-checkbox/)
+but you can use straight HTML or your library of choice (in "real life" this would be Constellation)
+
 There is an API (which is a fake API - not Axios - designed to simulate a CMS use case where you can't mock using Axios Mock Handler) which provides you with 2 async functions for getting:
 
 - Genres (`getGenres`)
