@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <div>Implement me!!!</div>;
+  return <>Implement me!!!</>;
 }
 
 export default App;
