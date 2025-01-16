@@ -1,4 +1,4 @@
-# Welcome to the Search Component (4 Ways) challenger
+# Welcome to the Search Component (4 Ways) challenge
 
 ## Level = `Beginner`
 
@@ -24,17 +24,17 @@ https://stackoverflow.com/questions/42522515/difference-between-controlled-compo
 
 I would like you to build the 4 implementations starting with probably the least desirable case.
 
-1. Build an **uncontrolled** Search Box with NO React hooks (tip, you'll need to use `document.getElementById`). How did you find this process? Why do you think this isn't a recommended approach?
+1. Build an **uncontrolled** Search Box with NO React hooks (`/src/components/SearchBoxNoHooks.tsx`) (tip, you'll need to use `document.getElementById`). How did you find this process? Why do you think this isn't a recommended approach?
 
-2. Build an **uncontrolled** Search Box by accessing the `<input>` using `useRef`. Why do you think this might be better than approach 1?
+2. Build an **uncontrolled** Search Box by accessing the `<input>` using `useRef` (`/src/components/SearchBoxUseRef.tsx`). Why do you think this might be better than approach 1?
 
-3. Build an **uncontrolled** Search Box by using the `useState` hook (hint: You keep the state up to date using `useState` and the `onChange` callback on the `input`). How does this compare with 2? Do you prefer it?
+3. Build an **uncontrolled** Search Box by using the `useState` hook (`/src/components/SearchBoxUncontrolled.tsx`) (hint: You keep the state up to date using `useState` and the `onChange` callback on the `input`). How does this compare with 2? Do you prefer it?
 
 Okay, time to take a quick break and look back at what we've done. Now it's time to imagine that we have a new requirement:
 
 > I want a `clear` button outside of the Search Box component where I can clear the text inside the Search Box component. Now I'm looking at my uncontrolled Search Box and I'm not really sure how I'm going to implement this clear button? How do I clear this box? Beyond the `initialSearch`, I can't change the value inside the text input!?
 
-4. Build a **controlled** Search Box which implements the following type:
+4. Build a **controlled** Search Box (`/src/components/SearchBoxControlled.tsx`) which implements the following type:
 
 ```
 export type SearchBoxControlledProps = {
