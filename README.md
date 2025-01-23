@@ -1,6 +1,22 @@
 # Welcome to the Search Component (4 Ways) challenge
 
+## PART 1 - Build the damn thing!
+
 ## Level = `Beginner`
+
+### What will I learn if I complete this challenge?
+
+- React Fundamentals
+  - Component abstraction, learn to separate into components properly
+  - Understand interaction between the DOM and React
+  - Use of the `useRef` and `useState` hooks, as well as (optionally) `forwardRef` and `useImperativeHandle`
+  - Other core react concepts like keys, callbacks and interaction with lower level componet libraries
+  - Controlled props vs uncontrolled props pattern
+  - Utilizing vite build tool (as opposed to create react app)
+- TDD
+  - Test components to 100% coverage
+  - Learn to test interaction of various different components
+  - Learn to use it.each to test different versions of a component with the same interface
 
 Have you ever seen on Masterchef the way that they cook the same ingredient in 4 different ways in the same dish? Here is an example of rhubarb 4 ways:\
 <img src="image.png" width="400">\
@@ -57,3 +73,15 @@ What this means is that if I want to clear the Search Box from _outside_ of the 
 ## How to do this workshop
 
 Complete each exercise one at a time and submit to Duncan for a little chat. Good luck!
+
+## PART 2 - Test the damn thing!
+
+## Level = `Beginner`
+
+1.  Test the 3 uncontrolled versions of the component. There should be NO DIFFERENCE in the interface and way that these components work.
+
+`CHECKPOINT #1` - Time to send Duncan what you have done. And time for a chat etc etc.
+
+2. Test the controlled version of the component.
+
+`CHECKPOINT #2` - Time to send Duncan what you have done. And time for a chat etc etc.
