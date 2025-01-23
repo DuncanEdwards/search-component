@@ -17,7 +17,7 @@ The way the component works is that the user is able to type into the text input
 This is a pattern known as a composite component. Where we combine two smaller components (`input`, `button`) into a higher level abstraction to facilitate reuse.
 
 But we're going to implement it a bunch of different ways. And we're going to divide the implementations into 2 broad categories of potential implementation:
-<img src="image-2.png" width="600">
+![alt text](image-4.png)
 
 For more info on this, see here:\
 https://stackoverflow.com/questions/42522515/difference-between-controlled-component-and-uncontrolled-component-in-react

@@ -2,14 +2,14 @@ import { StyledButton, StyledDiv, StyledLabel } from "./SearchBox.styled";
 
 export type SearchBoxUncontrolledProps = {
   initialSearch?: string;
-  onChange: (value: string) => void;
+  onSearch: (value: string) => void;
 };
 
 export const SearchBoxUncontrolled = ({
-  onChange,
+  onSearch,
   initialSearch,
 }: SearchBoxUncontrolledProps) => {
-  console.log("implement me!", { initialSearch, onChange });
+  console.log("implement me!", { initialSearch, onSearch });
 
   return (
     <StyledDiv>

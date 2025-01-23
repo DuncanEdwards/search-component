@@ -3,9 +3,9 @@ import { SearchBoxUncontrolledProps } from "./SearchBoxUncontrolled";
 
 export const SearchBoxQueryNode = ({
   initialSearch,
-  onChange,
+  onSearch,
 }: SearchBoxUncontrolledProps) => {
-  console.log("implement me!", { initialSearch, onChange });
+  console.log("implement me!", { initialSearch, onSearch });
   return (
     <StyledDiv>
       <StyledLabel>Search:</StyledLabel>
