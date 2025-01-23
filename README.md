@@ -1,6 +1,6 @@
 # Welcome to the Search Component (4 Ways) challenge
 
-## PART 1 - Build the damn thing!
+## PART 1 - Build the thing!
 
 ## Level = `Beginner`
 
@@ -74,7 +74,7 @@ What this means is that if I want to clear the Search Box from _outside_ of the 
 
 Complete each exercise one at a time and submit to Duncan for a little chat. Good luck!
 
-## PART 2 - Test the damn thing!
+## PART 2 - Build the thing!
 
 ## Level = `Beginner`
 
